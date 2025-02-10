@@ -1,0 +1,7 @@
+If pysal throws an error related with import "scipy" name inf it should be edited the referenced file to import from numpy (instead of scipy)
+(this practice should be avoid in general but it seems, for now, a solution)
+
+NOTE:
+Usually, the problem is associated with the library "cg" and, specifically with the fuction KDTree
+File located usually on (at a Conda/Mamba environment management):
+c:\Users\...\AppData\Local\miniforge3\envs\projETE2324_v2\lib\site-packages\libpysal\cg\kdtree.py

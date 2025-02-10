@@ -1,0 +1,5 @@
+# Files and Folders
+/data/input
+/data/output
+/notebooks/antigos
+*.env
